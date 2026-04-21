@@ -1,0 +1,73 @@
+{
+  "updatedAt": "2026-04-21T18:46:41Z",
+  "users": [
+    {
+      "username": "harshy03",
+      "realName": "harshith",
+      "avatar": "https://assets.leetcode.com/users/harshy03/avatar_1752696666.png",
+      "country": null,
+      "ranking": 1352069,
+      "totalSolved": 113,
+      "easySolved": 51,
+      "mediumSolved": 55,
+      "hardSolved": 7,
+      "totalEasy": 938,
+      "totalMedium": 2044,
+      "totalHard": 924,
+      "acceptanceRate": 87.6,
+      "streak": 15,
+      "totalActiveDays": 34,
+      "contestRating": 0,
+      "contestRanking": 0,
+      "contestsAttended": 0,
+      "topPercentage": null,
+      "badges": []
+    },
+    {
+      "username": "tourist",
+      "realName": "tourist",
+      "avatar": "https://assets.leetcode.com/users/default_avatar.jpg",
+      "country": "Ukraine",
+      "ranking": 5000001,
+      "totalSolved": 4,
+      "easySolved": 1,
+      "mediumSolved": 2,
+      "hardSolved": 1,
+      "totalEasy": 938,
+      "totalMedium": 2044,
+      "totalHard": 924,
+      "acceptanceRate": 36.4,
+      "streak": 0,
+      "totalActiveDays": 0,
+      "contestRating": 0,
+      "contestRanking": 0,
+      "contestsAttended": 0,
+      "topPercentage": null,
+      "badges": []
+    },
+    {
+      "username": "neal_wu",
+      "realName": "Neal Wu",
+      "avatar": "https://assets.leetcode.com/users/neal_wu/avatar_1737814509.png",
+      "country": "United States",
+      "ranking": 569024,
+      "totalSolved": 253,
+      "easySolved": 60,
+      "mediumSolved": 141,
+      "hardSolved": 52,
+      "totalEasy": 938,
+      "totalMedium": 2044,
+      "totalHard": 924,
+      "acceptanceRate": 57.5,
+      "streak": 0,
+      "totalActiveDays": 0,
+      "contestRating": 3686,
+      "contestRanking": 2,
+      "contestsAttended": 51,
+      "topPercentage": 0.01,
+      "badges": [
+        "Guardian"
+      ]
+    }
+  ]
+}

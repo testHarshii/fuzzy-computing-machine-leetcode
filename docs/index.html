@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LeetCode Battle Board</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="scanline"></div>
+  <div class="noise"></div>
+
+  <header>
+    <div class="header-inner">
+      <div class="logo-block">
+        <span class="logo-icon">⚔</span>
+        <div>
+          <h1 class="logo-title">BATTLE BOARD</h1>
+          <p class="logo-sub">LeetCode Arena · Friends Edition</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <button id="refreshBtn" class="btn-refresh">↺ RELOAD</button>
+        <div class="last-updated" id="lastUpdated">—</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- LEADERBOARD PODIUM -->
+  <section class="podium-section">
+    <h2 class="section-label">🏆 LEADERBOARD</h2>
+    <div class="podium" id="podium">
+      <!-- dynamically rendered -->
+    </div>
+  </section>
+
+  <!-- RANK TABLE -->
+  <section class="table-section">
+    <h2 class="section-label">📊 FULL STANDINGS</h2>
+    <div class="table-wrapper">
+      <table id="rankTable">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>USERNAME</th>
+            <th>TOTAL</th>
+            <th>EASY</th>
+            <th>MEDIUM</th>
+            <th>HARD</th>
+            <th>ACCEPTANCE</th>
+            <th>RANKING</th>
+            <th>STREAK</th>
+          </tr>
+        </thead>
+        <tbody id="rankBody">
+          <!-- dynamically rendered -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- DIFFICULTY BREAKDOWN BARS -->
+  <section class="breakdown-section">
+    <h2 class="section-label">🔥 DIFFICULTY BREAKDOWN</h2>
+    <div class="breakdown-grid" id="breakdownGrid">
+      <!-- dynamically rendered -->
+    </div>
+  </section>
+
+  <!-- HEAD TO HEAD -->
+  <section class="h2h-section">
+    <h2 class="section-label">⚡ HEAD TO HEAD</h2>
+    <div class="h2h-controls">
+      <select id="h2hLeft" class="h2h-select"></select>
+      <span class="vs-text">VS</span>
+      <select id="h2hRight" class="h2h-select"></select>
+    </div>
+    <div class="h2h-display" id="h2hDisplay">
+      <!-- dynamically rendered -->
+    </div>
+  </section>
+
+  <!-- LOADING OVERLAY -->
+  <div id="loadingOverlay" class="loading-overlay">
+    <div class="loading-box">
+      <div class="loading-spinner"></div>
+      <p class="loading-text" id="loadingText">FETCHING BATTLE DATA...</p>
+    </div>
+  </div>
+
+  <!-- ERROR TOAST -->
+  <div id="errorToast" class="error-toast hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
